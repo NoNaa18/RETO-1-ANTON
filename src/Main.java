@@ -3,21 +3,33 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int dividendo = 0;
         System.out.println("Cada cuantos chicles nos dan un envoltorio? ");
-        int chicles = sc.nextInt();
+        int necesito = sc.nextInt();
 
         System.out.println("Cuantos envoltorios nos dan? ");
         int envoltorios = sc.nextInt();
 
         System.out.println("Con cuantos chicles empezamos? ");
-        int chicles_empezamos = sc.nextInt();
+        int compramos = sc.nextInt();
 
-        while (chicles_empezamos > 0 && envoltorios > 0){
-            chicles_empezamos = chicles_empezamos / chicles;
-            dividendo = chicles_empezamos % chicles;
+        int solucion = 0;
+        int suma = 0;
+        int division = 0;
+        int resultado = 0;
+
+        while (compramos >= necesito){
+            if (envoltorios >= compramos) {
+                System.out.println("RUINA");
+            } {
+                division = compramos / necesito;
+                suma = division / necesito;
+                resultado = division + suma + compramos;
+
+                solucion = division / necesito;
+            }
+            break;
         }
-        System.out.println(chicles_empezamos);
-        System.out.println(dividendo);
+        System.out.println(resultado);
+        System.out.println(solucion);
     }
 }

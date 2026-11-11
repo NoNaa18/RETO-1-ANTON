@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/bingo/bingo.iml" filepath="$PROJECT_DIR$/bingo/bingo.iml" />
       <module fileurl="file://$PROJECT_DIR$/ejerciciobubble.iml" filepath="$PROJECT_DIR$/ejerciciobubble.iml" />
     </modules>
   </component>
